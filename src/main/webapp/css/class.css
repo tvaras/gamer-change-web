@@ -1,0 +1,17 @@
+@charset"utf-8";
+/*------------------------*/
+/* Escribir aqu� todo estilo relativo a las clases auxiliares*/
+/*------------------------*/
+.right{text-align:right;}/*alinea texto a la derecha*/
+.left{text-align:left;}/*alinea texto a la izquierda*/
+.center{text-align:center;}/*centra texto*/
+.mayusculas{text-transform:	uppercase;}
+.capital{text-transform:capitalize;}
+.fr{float:right;}
+.fl{float:left;}
+.nf{clear:both;}
+.width100{width:100%;}
+.widthAuto{width:auto;}
+.nowrap{white-space:nowrap;}
+.rojo{color:#f00;font-weight:bold;}
+.divTooltip{ background:#BDDFB3; border:1px solid #0F2925; color:#0F2925; font-size:80%; font-weight:bold;}

@@ -1,0 +1,46 @@
+@charset"utf-8";
+/*------------------------*/
+/* Escribir aquí todo estilo relativo a los contenedores*/
+/*------------------------*/
+body{font-family:Arial, sans-serif; background:#9AFD4E;}
+#encabezado{height:75px;text-align:center;}
+#contenido{margin-left:135px;background:#fff;padding:10px;}
+#pie{text-align:center;font-size:80%;padding:10px;}
+
+/*Links de acciones*/
+.lnkAgregar{
+	float:right;
+	display:block;	
+	background:#effff0 url(../images/add.png) center right no-repeat;
+	width:90px;
+	padding:5px 2px 5px 4px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#001C28;
+	border:1px solid #159E31;
+}
+.lnkAgregar:hover{
+	background:#159E31 url(../images/add.png) center right no-repeat;
+	color:#fff;
+}
+#lnkVolver{
+	display:block;
+	width:70px;
+	padding:2px;
+	background:url(../images/fondo_idenDetalle.png) repeat-x center;
+/*	font-weight:bold;*/
+	color:#fff;
+	margin:0 5px;
+	text-decoration:none;
+	text-align:center;
+}
+.lnkVer, .lnkModificar, .lnkEliminar{
+	text-decoration:none;
+	color:#eee;
+	display:block;
+	width:24px;
+	height:24px;
+}
+.lnkVer{background:url(../images/ver.png) center no-repeat;}	
+.lnkModificar{background:url(../images/modificar.png) center no-repeat;}	
+.lnkEliminar{background:url(../images/eliminar.png) center no-repeat;}

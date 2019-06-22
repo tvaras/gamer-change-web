@@ -1,0 +1,21 @@
+@charset"utf-8";
+/*------------------------*/
+/* Escribir aquí todo estilo relativo a los elementos HTML*/
+/*------------------------*/
+/*h1{position:absolute;top:15px;left:25%;z-index:400;font-size:20px;font-weight:bold;text-shadow:#fff 0 1px 0;}*/
+/*h2{font-size:14px;font-weight:bold;margin:4px;}*/
+/*h2{
+	background:#ffffcf;
+	width:30%;
+	font-weight:bold;
+	font-size:150%;
+	color:#f00;
+	text-align:center;
+	margin: 5px auto;
+	padding:5px;
+}
+
+acronym, abbr{cursor:help;text-decoration:underline;}*/
+h1{ font-size:160%;padding:20px;}
+h2{ font-size:120%;padding:5px;}
+h1,h2{font-weight:bold;}

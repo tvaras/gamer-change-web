@@ -1,0 +1,41 @@
+@charset"utf-8";
+/*------------------------*/
+/* Escribir aquí todo estilo relativo al menu*/
+/*------------------------*/
+#menu{
+	padding:1px;
+	border:1px solid #000;
+	float:left;
+	width:130px;
+	font-size:12px;
+	background:#e4f2ff;
+}
+
+#menu li a{
+	display:block;
+	background:#18364E;
+	color:#fff;
+	padding:2px;	
+	text-decoration:none;
+	border-bottom:1px solid #ABC8E2;
+}
+#menu li a:hover{
+	background:#ABC8E2;
+	color:#18364E;	
+}
+#menu li a.verSub{background:#18364E url(../images/right_blanco.png) right no-repeat;font-weight:bold;}
+#menu li a.verSub:hover{background:#ABC8E2 url(../images/right_gris.png) right no-repeat;}
+
+#menu ul.subMenu li a{
+	background:#E1E6FA;
+	color:#18364E;
+}
+#menu ul.subMenu li a:hover, #menu ul.subMenu li a.menuSel:hover{
+	background:#ABC8E2;
+	color:#18364E;
+}
+
+#menu ul.subMenu li a.menuSel{background:#676D75;color:#fff;}
+#menu li a.lnkSalir{background:#900;font-weight:bold}
+#menu li a.lnkSalir:hover{color:#fff;}
+/*E1E6FA */

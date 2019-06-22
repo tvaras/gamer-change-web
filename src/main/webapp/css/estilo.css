@@ -1,0 +1,11 @@
+@charset"utf-8";
+/*-------------------------*/
+
+/*-------------------------*/
+@import url("reset.css");		/*Reseteo general para aumentar la compatibilidad*/
+@import url("layout.css");		/*Estructura y diseño*/
+@import url("html.css");		/*Elementos HTML*/
+@import url("form.css");		/*Formularios*/
+@import url("table.css");		/*tablas*/
+@import url("class.css") ;		/*Clases auxiliares*/
+@import url("menu.css") ;		/*Menu*/

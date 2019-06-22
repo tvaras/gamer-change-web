@@ -1,0 +1,18 @@
+@charset"utf-8";
+/*------------------------*/
+/* Estilos para el simpático de IE7*/
+/*------------------------*/
+/*fieldset{margin:0 0 0 17%;}
+/*fieldset.fstPrestaciones,fieldset.fsetAcomp{margin:0 0 0 2%;}*/
+legend{margin-left:-10px;}
+.imgBajar{margin-top:-25px;margin-right:5px;}
+#detBenef div .dataCodigo, #detBenef div .dataGlosa {margin-top:-20px;}
+#detBenef div .etiqueta{border-top: 1px dotted #fff;}
+#detBenef div {margin-top:-2px;}
+#fieldsetTarjetas div{padding-bottom:5px;}
+#fieldsetTarjetas fieldset{margin:0 auto auto 10px;width:auto;}
+.imgBajar{
+	float:left;	
+	margin-top:-2px;
+	cursor:pointer;
+}

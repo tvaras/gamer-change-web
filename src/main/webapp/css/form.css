@@ -1,0 +1,79 @@
+@charset"utf-8";
+/*------------------------*/
+/* Escribir aqu� todo estilo relativo a los elementos de Formulario*/
+/*------------------------*/
+
+fieldset{border:1px solid #aaa; padding:5px 5px 10px 5px; margin:15px;}
+
+fieldset fieldset{margin:5px;}
+
+label{
+	display:block;
+	position:relative;
+	width:40%;
+	padding:5px;
+	margin:1px 5px;
+	/*border:1px solid #000;*/
+	z-index:2;
+}
+
+#frmAdd label span, #frmAdd label input, #frmAdd label select{
+	/*border:1px solid #000;*/
+	position:absolute;
+	left:150px;
+	z-index:1;
+}
+label textarea{margin-left:145px;}
+
+/* tipografía*/
+
+form {font-size:12px;}
+
+legend{font-size:14px;font-weight:bold;}
+
+label span{font-size:12px;font-weight:bold;}
+
+
+input[type="button"],input[type="submit"],input[type="reset"]{
+	width:100px;
+	height:30px;	
+	background:url(../images/boton_verde.png) repeat-x center;
+	font-weight:bold;	
+	color:#fff;
+	margin:0 5px;
+	border:1px solid #009D57;
+	cursor:pointer;
+}
+
+input[type="button"],input[type="submit"],input[type="reset"]{
+	width:100px;
+	height:30px;	
+	background:url(../images/boton_verde.png) repeat-x center;
+	font-weight:bold;	
+	color:#fff;
+	margin:0 5px;
+	border:1px solid #009D57;
+	cursor:pointer;
+}
+
+input[type="text"], select, textarea, input[type="password"]{
+	padding:2px;
+	border:1px solid #0367A6;
+	font-family:Arial;
+}
+input[type="text"]:focus, select:focus, textarea:focus, input[type="password"]:focus{
+	background:#FFFFEF;
+	outline:2px solid #FEFF7F
+}
+input.btnPopup{
+	width:100px;
+}
+#frmFiltro label{display:inline;}
+#frmFiltro input[type="button"],input[type="submit"]{
+	width:70px;
+	height:25px;
+}
+/*#frmFiltro .btnBuscar{float:right;}
+/* mensajes de validacion */
+#frmAdd label div,#advice-validate-one-required-tipo_movimiento_s{position:relative;width:300px;left:145px;margin-top:10px;color:#f00;}
+#frmAdd #advice-validate-one-required-tipo_movimiento_s{left:5px;margin-top:-8px;margin-bottom:5px;}
